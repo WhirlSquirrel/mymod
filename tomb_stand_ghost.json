@@ -1,0 +1,25 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(tomb_stand.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "display_name": "i18n(stonehearth:entities.furniture.tomb_stand.tomb_stand_ghost.display_name)",
+         "description": "i18n(stonehearth:entities.furniture.tomb_stand.tomb_stand_ghost.description)",
+         "icon": "file(tomb_stand.png)"
+      },
+      "stonehearth:material": {
+         "tags": "wood furniture crafted stockpile_furniture"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "type" : "recipe",
+   "work_units" : 2,
+   "recipe_name" : "tomb_stand",
+   "description" : "The scripts of tales to be told. :3",
+   "flavor" : "Flavorful!",
+   "portrait" : "/mymod/entities/tomb_stand/tomb_stand.png", 
+   "level_requirement" : 0, 
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"mymod:tomb_stand"
+      }
+  ]
+}
